@@ -1,0 +1,39 @@
+class firstdemo
+{
+public static void main(String[]args)
+{
+Person p=new Person();
+p.setName("于金良");
+sop(p.getName());
+p.setAge(23);
+
+sop(p.getAge());
+}
+public  static void sop(Object obj)
+{
+System.out.println(obj);
+}
+}
+class Person
+{
+private String name;
+private int age;
+private String sex;
+public static void setNmae(String name)
+{
+this.name=name;
+}
+public static String getNmae()
+{
+return name;
+}
+public static void setAge()
+
+{
+this.age=age;
+}
+public static int getAge()
+{
+return age;
+}
+}
