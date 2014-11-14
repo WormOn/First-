@@ -1,0 +1,36 @@
+class SecondDemo
+{
+public staitic void main(String[]args)
+{
+threadone t1=new threadone();
+t1.start();
+}
+public static void sop(Object obj)
+{
+System.out.println(obj);
+}
+}
+class threadone extends Runnable
+{
+public void run()
+{
+t=new ticketdemo();
+t2=t.setNum(100);
+for(int i=0;i<=100;i++)
+{
+sop(t.getName());
+}
+}
+}
+class ticketdemo
+{
+private int num;
+public void setNum(int num)
+{
+this.num=num;
+}
+public void getName()
+{
+return num;
+}
+}
