@@ -3,7 +3,7 @@ class firstdemo
 public static void main(String[]args)
 {
 Person p=new Person();
-p.setName("崔广章");
+p.setName("于金良");
 sop(p.getName());
 p.setAge(23);
 
